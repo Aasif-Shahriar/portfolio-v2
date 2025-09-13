@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  overflow-x: hidden;
+  color: #333333;
+}
+.btn-primary {
+  @apply bg-[#333333] text-white py-3 px-6 text-lg font-medium border-2 border-[#333] hover:bg-white hover:text-[#333] transition-all duration-300 cursor-pointer;
+}
+.btn-outline {
+  @apply  text-[#333] py-3 px-6 text-lg font-medium border-2 border-[#333] transform hover:scale-105 hover:text-[#333] transition-all duration-300 cursor-pointer;
+}
+.section-w {
+  @apply max-w-[1920px] mx-auto;
+}
+.min-h-for-sec {
+  @apply min-h-[calc(100vh-64px)] lg:min-h-[calc(100vh-128px)];
+}
+.section-head-styles {
+  @apply uppercase text-lg font-bold tracking-[5px];
+}
