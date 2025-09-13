@@ -10,8 +10,7 @@ const ProjectsPage = () => {
       data-aos-duration="800"
     >
       <div className="flex items-center gap-6  mb-8">
-        <h2 className="section-head-styles">My Recent Projects</h2>{" "}
-        <HorizontalLine />
+        <h2 className="section-head-styles">Projects I've Done</h2> <HorizontalLine />
       </div>
       <ul className="flex items-center flex-wrap gap-6">
         <li>All</li>
